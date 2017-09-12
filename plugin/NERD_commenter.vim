@@ -229,7 +229,7 @@ let s:delimiterMap = {
     \ 'iss': { 'left': ';' },
     \ 'ist': { 'left': '%' },
     \ 'jade': { 'left': '//-', 'leftAlt': '//' },
-    \ 'java': { 'left': '//', 'leftAlt': '/*', 'rightAlt': '*/' },
+    \ 'java': { 'left': '//', 'leftAlt': '//', 'rightAlt': '' },
     \ 'javacc': { 'left': '//', 'leftAlt': '/*', 'rightAlt': '*/' },
     \ 'javascript': { 'left': '//', 'leftAlt': '/*', 'rightAlt': '*/' },
     \ 'javascript.jquery': { 'left': '//', 'leftAlt': '/*', 'rightAlt': '*/' },
