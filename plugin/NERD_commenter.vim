@@ -3016,7 +3016,7 @@ function! s:CreateMaps(modes, target, desc, combo)
         endif
     endfor
 endfunction
-call s:CreateMaps('nx', 'Comment',    'Comment', 'cc')
+"call s:CreateMaps('nx', 'Comment',    'Comment', 'cc')       "eric commented this
 call s:CreateMaps('nx', 'Toggle',     'Toggle', 'c<space>')
 call s:CreateMaps('nx', 'Minimal',    'Minimal', 'cm')
 call s:CreateMaps('nx', 'Nested',     'Nested', 'cn')
@@ -3027,9 +3027,9 @@ call s:CreateMaps('nx', 'Yank',       'Yank then comment', 'cy')
 call s:CreateMaps('n',  'Append',     'Append', 'cA')
 call s:CreateMaps('',   ':',          '-Sep-', '')
 call s:CreateMaps('nx', 'AlignLeft',  'Left aligned', 'cl')
-call s:CreateMaps('nx', 'AlignBoth',  'Left and right aligned', 'cb')
+call s:CreateMaps('nx', 'AlignBoth',  'Left and right aligned', 'cc')     "eric changed this to cc indent
 call s:CreateMaps('',   ':',          '-Sep2-', '')
-call s:CreateMaps('nx', 'Uncomment',  'Uncomment', 'cu')
+call s:CreateMaps('nx', 'Uncomment',  'Uncomment', 'cu')                  "eric changed this to cu for unindent                                               
 call s:CreateMaps('n',  'AltDelims',  'Switch Delimiters', 'ca')
 call s:CreateMaps('i',  'Insert',     'Insert Comment Here', '')
 call s:CreateMaps('',   ':',          '-Sep3-', '')
