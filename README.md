@@ -6,6 +6,7 @@ Comment functions so powerful—no comment necessary.
 
 ##Custom nerdcommenter for eric
 
+I made critical changes under the hood so my workflow is accomodated.  See NERD_commenter.vim
 I made some special config options for .vimrc
 
     "scrooloose/nerdcommenter                                                                                                      
